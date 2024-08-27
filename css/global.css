@@ -1,0 +1,22 @@
+/*Reset básico para consistência entre navegadores*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Helvetica Neue', sans-serif;
+    line-height: 1.6;
+    background-color: palevioletred;
+    color: rgb(0, 0, 0);
+}
+
+/*Cabeçalho do site*/
+.site-header{
+    background-color: rgb(255, 255, 255);
+    color: aquamarine;
+    padding: 1rem 0;
+    text-align: center;
+}
+
