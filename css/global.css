@@ -7,8 +7,8 @@
 
 body{
     font-family: 'Helvetica Neue', sans-serif;
-    line-height: 1.6;
-    background-color: palevioletred;
+    line-height: 1.5;
+    background-color: rgb(214, 144, 167);
     color: rgb(0, 0, 0);
 }
 
@@ -22,7 +22,7 @@ body{
 
 .site-title {
     margin-bottom: 10px;
-    font-size: 2cm;
+    font-size: 2rem;
 }
 
 .main-nav .nav-list{
@@ -31,3 +31,113 @@ body{
     justify-content: center;
 }
 
+.main-nav .nav-link{
+    margin: 0 15px;
+}
+
+.main-nav .nav-link{
+    color: rgb(17, 99, 170);
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.main-nav .nav-link:hoover{
+    color: #fff;
+}
+
+/*Conteúdo Principal*/
+.main-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 30px;
+}
+
+.article{
+    flex: 3;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px #ff0055;
+    border-radius: 5px;
+}
+
+.article-header{
+    border-bottom: 2px solid #ff0000;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+}
+
+.article-title{
+    color: black;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.article-meta{
+    color: rgb(255, 255, 255);
+    font-size: 0.9rem;
+}
+
+.article-section{
+    margin-bottom: 20px;
+}
+
+.section-title{
+    font-size: 1.4em;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.section-text{
+    margin-bottom: 15px;
+    color: rgb(0, 0, 0);
+    line-height: 1.0;
+}
+
+.image-figure{
+    margin-top: 20px 0;
+}
+
+.article-image{
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.image-caption{
+    text-align: center;
+    font-size: 0.08em;
+    color: #777;
+    margin-top: 5px;
+}
+
+.sidebar{
+    flex: 1;
+    background-color: #fce2e2;
+    padding: 20px;
+    box-shadow: 0 2px 4px #f9f9f9;
+    border-radius: 5px;
+}
+
+.sidebar-title{
+    font-size: 1.6em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.sidebar-text{
+    color: #555555;
+    line-height: 1.5;
+}
+
+.site-footer{
+    background-color: #f9f9f9;
+    color: #ff0055;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
